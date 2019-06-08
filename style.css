@@ -1,9 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #efeee7;
     font-family: "Georgia",Times New Roman,Times,serif;
     color: #333333;
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 h1 {
     background-color: #333333;
@@ -11,29 +17,37 @@ h1 {
     text-align: center;
     height: 80px;
     font-size: 28px;
-    padding: 10px;
+    padding-top: 20px;
     margin-top: 0px;
 }
 h2 {
     font-size: 24px;
+    margin-left: 40px;
 }
 .container {
     margin: 0 auto;
+    display: inline-block;
 }
 .picture {
     float: left;
     margin: 10px;
+    display: inline-block;
 }
 .bio {
     float: left;
-    width: 60%;
-    line-height: 1.5;
-    
+    width: 50%;
+    display: inline-block;
+    margin: 10px;
 }
 .contact {
     float: left;
-    width: 30%;
+    width: 20%;
+    display: inline-block;
+    margin: 20px;
 }
 a {
     color: #d21034
+}
+.picture, .bio, .contact {
+    display: inline-block;
 }
